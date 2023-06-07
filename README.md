@@ -7,7 +7,7 @@
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     python get-pip.py pip==19.3.1
     pip install --upgrade pip
-    pip install numpy
+    python -m pip install numpy==1.22.3
     pip install rdkit
     pip install torch torchvision torchaudio
     pip install dgl-cu102 dglgo -f https://data.dgl.ai/wheels/repo.html
