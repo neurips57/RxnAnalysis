@@ -16,4 +16,4 @@
 Run `main.py` for .csv to .npz conversion with appropriate reaction function. For example, use `generate_sc_total()` to create npz data for SC reaction. In the next step, run `get_data.py` inside `./data` forlder.
 
 # Model Running
-Run `run_code.py` with proper `model_*.py`
+Run `run_code.py` with proper `model_*.py` 
