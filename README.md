@@ -21,7 +21,7 @@ Run `main.py` for .csv to .npz conversion with appropriate reaction function. Fo
 Run `run_code.py` with proper `model_*.py` 
 
 # Subset creation
-For subset making check `subset_cration/make_subset.ipynb`
+For subset making check `subset_creation/make_subset.ipynb`
 
 # Dataset
 All datasets are kept in `./Dataset` folder
