@@ -12,3 +12,5 @@
     pip install torch torchvision torchaudio
     pip install dgl-cu102 dglgo -f https://data.dgl.ai/wheels/repo.html
 
+# Dataset processing
+Run     main.py for .csv to .npz conversion with appropriate reaction function. 
