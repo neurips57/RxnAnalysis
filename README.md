@@ -11,6 +11,7 @@
     pip install rdkit
     pip install torch torchvision torchaudio
     pip install dgl-cu102 dglgo -f https://data.dgl.ai/wheels/repo.html
+    https://github.com/neurips57/Rxn_analysis.git
 
 # Dataset processing
 Run `main.py` for .csv to .npz conversion with appropriate reaction function. For example, use `generate_sc_total()` to create npz data for SC reaction. In the next step, run `get_data.py` inside `./data` forlder.
