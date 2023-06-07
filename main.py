@@ -339,5 +339,6 @@ if __name__ == '__main__':
     yld = df['Yield'].to_numpy().reshape((-1,1))
     final = np.concatenate((smi, yld), axis=1)
     print(final.shape)
-    np.savez(f'data/split/data_6_split_{int(sheet_name)-1}.npz', data_df=final)
+    data_id = 6  # data_id 1: BH, 4: DF, 5: NS, 6: SC, 7:CM 
+    np.savez(f'data/split/data_{data_id}_split_{int(sheet_name)-1}.npz', data_df=final)
     
